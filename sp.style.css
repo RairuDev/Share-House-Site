@@ -1,0 +1,399 @@
+@charset "UTF-8";
+@media (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
+  .header-container {
+    height: 90px;
+  }
+  .header-width {
+    margin: 0;
+    padding: 0 1%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .header-article {
+    width: 20%;
+    text-align: center;
+    padding: 1%;
+    margin: 2% 0;
+  }
+  .header-information {
+    width: 80%;
+    overflow: scroll;
+    white-space: nowrap;
+    border: solid 1px #333333;
+    padding: 1%;
+    margin: 2% 0;
+  }
+  .Search-box-wrapper {
+    width: 92%;
+    margin-bottom: 2%;
+  }
+  .form-input {
+    width: 95%;
+  }
+  .header-twitter img {
+    padding-left: 5%;
+    padding: 5%;
+    width: 27px;
+    height: 27px;
+    margin-bottom: 1em;
+  }
+  .header-title-wrapper {
+    height: 80px;
+  }
+  .header-title {
+    margin-left: 2%;
+    font-size: 2.3em;
+    padding-top: 3%;
+  }
+  .header-sub-title {
+    margin-left: 2%;
+  }
+
+  /*ハンバーガーアイコン*/
+  .btn-burger {
+    cursor: pointer;
+    display: block;
+    width: 28px;
+    height: 78px;
+    position: absolute;
+    top: 92px;
+    right: 15px;
+  }
+  /*ハンバーガーアイコンを作る三本線*/
+  .icon,
+  .icon:before,
+  .icon:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 2px; /*線の太さ*/
+    width: 16px; /*線の長さ*/
+    background-color: #fff;
+    border-radius: 1px;
+    display: block;
+    content: "";
+    cursor: pointer;
+    margin: auto;
+  }
+  /*三本線の間隔*/
+  .icon:before {
+    top: 11px;
+  }
+  .icon:after {
+    top: -11px;
+  }
+  /*チェックボックス非表示*/
+  .nav-toggle {
+    display: none;
+  }
+  /*アイコンをクリックしたら*/
+  .nav-toggle:checked ~ .btn-burger .icon {
+    background: transparent;
+  }
+  .nav-toggle:checked ~ .btn-burger .icon:before {
+    transform: rotate(-45deg);
+    top: 0;
+  }
+  .nav-toggle:checked ~ .btn-burger .icon:after {
+    transform: rotate(45deg);
+    top: 0;
+  }
+  .icon,
+  .icon:before,
+  .icon:after {
+    transition: all 0.8s;
+  }
+
+  #navToggle {
+    display: none;
+  }
+  main {
+    margin: 0;
+  }
+
+  .main-article {
+    border: none;
+    width: 100%;
+    display: block;
+    margin-top: 0;
+  }
+  .main-article-width {
+    margin: 0 2%;
+  }
+  .header-address {
+    padding: 2%;
+    margin: 0 2%;
+    overflow-x: scroll;
+    white-space: nowrap;
+    display: flex;
+  }
+  .main-title {
+    font-size: 2.4em;
+    margin: 5% 4%;
+  }
+  .detail {
+    margin: 0 4%;
+    width: 92%;
+  }
+
+  .main-image1 img {
+    height: 300px;
+    width: 96%;
+    margin: 1em 2% 0 2%;
+  }
+  .sns-icon {
+    margin: 1.5em 3%;
+    width: 93%;
+  }
+  .main-text {
+    margin: 0 4% 1.5em 4%;
+  }
+  .main-image2 {
+    margin: 0 4%;
+  }
+  .main-image2 img {
+    height: 300px;
+  }
+
+  .main-image2-detail {
+    text-align: center;
+    font-size: 1.2em;
+    color: #999999;
+    margin-top: 1em;
+  }
+  .contents {
+    width: 67%;
+    padding: 1.5em 0;
+    margin: 12% 4% 0 4%;
+  }
+  .action-close {
+    margin: 0.5em 0px 3em 1em;
+  }
+  .btn {
+    font-size: 1.5em;
+  }
+  .display {
+    margin: 0 0em 1em 2.5em;
+  }
+  .display-secondary {
+    margin: 0 0 1em 4.5em;
+  }
+
+  .display-tertiary {
+    margin: 0 0 1em 7em;
+  }
+  .list-number {
+    padding: 2px 4px;
+    font-size: 1.1em;
+  }
+
+  .list-text {
+    font-size: 0.9em;
+    letter-spacing: 0em;
+  }
+  .saport-heading {
+    font-size: 2.2em;
+    margin: 9% 4% 4% 4%;
+    letter-spacing: 0em;
+  }
+  .saport-heading:first-letter {
+    font-size: 1.5em;
+  }
+  .saport-list {
+    font-size: 1.5em;
+    margin: 0 4%;
+  }
+  .list {
+    margin: 0.5em 4% 0 6%;
+    font-size: 1.5em;
+  }
+  .list::before {
+    width: 3px;
+    height: 3px;
+    left: -7px;
+  }
+  .saport-title {
+    width: 92%;
+    padding: 4%;
+    font-size: 1.7em;
+    margin: 8% 4% 5% 4%;
+  }
+  .saport-text {
+    font-size: 1.5em;
+    margin: 0 4%;
+    letter-spacing: 0.1em;
+  }
+  .saport-title-exception {
+    width: 92%;
+    padding: 4%;
+    font-size: 1.7em;
+    margin: 4% 4% 5% 4%;
+    letter-spacing: 0.1em;
+  }
+  .text-span span {
+    color: #3cb371;
+    font-weight: normal;
+  }
+  .font-bold {
+    font-weight: bold;
+  }
+  .room-info {
+    font-weight: bold;
+    font-size: 1.8em;
+    margin: 2em 0px 1.5em 0px;
+  }
+  .room-info-details {
+    font-size: 1.5em;
+  }
+  .room-info {
+    font-size: 1.6em;
+    margin: 6% 4% 3% 4%;
+  }
+  .room-info-details {
+    margin: 4% 4% 0% 4%;
+  }
+  .application {
+    margin: 4% 4% 0% 4%;
+  }
+  .name {
+    margin: 4% 4% 10% 4%;
+  }
+  .siderbar-wrapper {
+    display: block;
+    margin: 6% 4% 0 4%;
+  }
+  .sidebar-wrapper-left {
+    border-top: solid 1px #ccc;
+    width: 100%;
+    border-right: transparent;
+  }
+  .back-article {
+    font-size: 1.2em;
+    width: 15%;
+    padding: 0.2em;
+  }
+  .back-wrapper {
+    margin-top: 3%;
+  }
+  .back-wrapper img {
+    margin: 0 2% 14% 0;
+  }
+  .back-text span {
+    font-size: 1.3em;
+    margin-left: 3%;
+    display: inline-block;
+  }
+  .foot-date img {
+    margin-left: 3%;
+  }
+  .sidebar-wrapper-right {
+    border-left: transparent;
+    border-top: transparent;
+    width: 100%;
+  }
+
+  .next-article {
+    font-size: 1.2em;
+    width: 15%;
+    margin-left: 85%;
+    padding: 0.2em;
+  }
+
+  .next-text {
+    color: #bbb;
+    font-size: 13px;
+    margin: 2em 0 5% 40%;
+  }
+  hr {
+    width: 92%;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  .Relation-article {
+    width: 92%;
+    margin: 5% 4% 0 4%;
+    font-size: 1.6em;
+    padding: 1% 0;
+  }
+  .Relation-article-wrapper {
+    margin: 3% 4% 5% 4%;
+  }
+  .Relation-article-title span {
+    font-size: 1.3em;
+  }
+  .Relation-article-text {
+    font-size: 1.1em;
+    margin-top: 1%;
+  }
+  body {
+    width: 100%;
+    overflow-x: hidden;
+    background: linear-gradient(to bottom, #fff 86.5%, #eee 13.5%);
+    max-width: 570px;
+  }
+  .side-navigation {
+    width: 100%;
+  }
+
+  .side-kensaku-box {
+    margin: 17% 2% 3% 2%;
+    width: 96%;
+  }
+  .side-form-box {
+    width: 100%;
+  }
+  .side-form-input {
+    width: 100%;
+  }
+  .side-border {
+    width: 94%;
+  }
+  .side-article {
+    font-size: 1.6em;
+    width: 90px;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .Recently-article-wrapper {
+    margin: 1.5em 2% 0 2%;
+  }
+  .Recently-article-title {
+    font-size: 1.2em;
+  }
+  .side-li-dashed {
+    font-size: 1.2em;
+    margin: 20px 4% 30px 4%;
+    width: 96%;
+    padding-bottom: 1.2em;
+  }
+  .side-li-none {
+    font-size: 1.2em;
+    margin: 20px 4% 5em 4%;
+  }
+  .tab-wrapper {
+    padding: 10px 15px;
+    width: 33%;
+  }
+  .foot-twitter-wrapper a {
+    margin: 40px auto;
+  }
+  .foot-twitter {
+    padding: 20px;
+  }
+  .foot-wrapper {
+    margin-top: 8em;
+  }
+  .copy {
+    font-size: 1.4em;
+  }
+  .foot-text {
+    font-size: 1.2em;
+  }
+}
