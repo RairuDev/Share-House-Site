@@ -9,11 +9,12 @@ body {
   height: 50px;
 }
 .header-width {
-  width: 60%;
-  margin: 0 auto;
-  display: flex;
   align-items: center;
   padding: 7px 0;
+  display: flex;
+  width: 1100px;
+  max-width: 95%;
+  margin: 0 auto;
 }
 .header-article {
   border: 1px solid #323232;
@@ -24,11 +25,10 @@ body {
   font-size: 1.1em;
   font-weight: bold;
   min-width: 110px;
-  width: 7%;
 }
 .header-information {
   white-space: nowrap;
-  width: 35%;
+  width: 40%;
   overflow-x: hidden;
   margin: 0px 10px;
   border: 1px solid black;
@@ -41,19 +41,19 @@ body {
 .search-box {
   background-color: white;
   border-radius: 5px;
-  width: 35%;
+  width: 48%;
   height: 30px;
-
-  min-width: 200px;
+  min-width: 300px;
 }
 
 .form-box {
   border: none;
   align-items: center;
+  display: flex;
 }
 
 .form-input {
-  width: 91%;
+  width: 92%;
   height: 30px;
   font-size: 1.2em;
   margin-left: 10px;
@@ -72,6 +72,7 @@ body {
 
 .header-twitter img {
   margin-left: 9px;
+  margin-top: 3px;
   width: 25px;
   height: 25px;
   border-radius: 50%;
@@ -95,7 +96,6 @@ body {
   font-size: 2.7em;
   font-weight: bold;
   padding-top: 1.3em;
-
   cursor: pointer;
   letter-spacing: 0.05em;
 }
@@ -105,19 +105,17 @@ body {
 
 .header-sub-title {
   font-size: 1.1em;
-
   letter-spacing: 0.05em;
 }
 main {
-  width: 76%;
+  width: 1100px;
+  max-width: 95%;
   margin: 0 auto;
 }
 .main-article {
   display: flex;
 }
-.main-article-width {
-  width: 64%;
-}
+
 .header-address {
   border: solid 1px #f2f2f2;
   background-color: #f2f2f2;
@@ -535,7 +533,7 @@ hr {
   height: 12px;
 }
 .side-navigation {
-  width: 36%;
+  width: 39%;
   padding-left: 75px;
 }
 
