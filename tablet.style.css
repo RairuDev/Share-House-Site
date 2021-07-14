@@ -1,0 +1,132 @@
+@charset "UTF-8";
+@media (max-width: 1023px) {
+  body {
+    overflow-x: hidden;
+    background: linear-gradient(90deg, #fff 0%, #fff 64%, #eee 36%, #eee 100%);
+  }
+  .header-width {
+    width: 829px;
+  }
+
+  .header-information {
+    width: 35%;
+    overflow-x: scroll;
+    min-width: 0;
+  }
+  .search-box {
+    width: 45%;
+    min-width: 0;
+  }
+
+  .header-title-wrapper {
+    height: 100px;
+  }
+  .form-input {
+    width: 92%;
+    height: 30px;
+    font-size: 1.2em;
+    margin-left: 10px;
+    min-width: 268px;
+  }
+  .header-title {
+    padding-top: 0.7em;
+    width: 829px;
+  }
+
+  .header-sub-title {
+    width: 829px;
+  }
+  .article {
+    width: 829px;
+  }
+  .main-article {
+    width: 67%;
+    padding-right: 3em;
+  }
+  .header-address {
+    padding: 0.9em 2em 0.9em 1.9em;
+  }
+  .main-title {
+    margin-top: 1.7em;
+    font-size: 2.7em;
+  }
+  .main-text {
+    letter-spacing: 0.3px;
+  }
+  .contents {
+    font-size: 1em;
+    width: 70%;
+  }
+  .list-number {
+    font-size: 1.1em;
+  }
+  .list-text {
+    font-size: 1.1em;
+    letter-spacing: 0.05em;
+  }
+  .saport-heading {
+    letter-spacing: 0;
+  }
+  .saport-heading:first-letter {
+    font-size: 1.3em;
+  }
+  .text-span span {
+    font-weight: normal;
+  }
+  .saport-title {
+    font-size: 1.9em;
+  }
+  .saport-title-exception {
+    font-size: 1.9em;
+  }
+  .back-article {
+    font-size: 1.3em;
+  }
+
+  .back-wrapper {
+    margin-top: 8%;
+  }
+  .back-wrapper img {
+    margin: 0 1em 2em 0;
+  }
+  .back-text span {
+    font-size: 1.4em;
+  }
+  .foot-date img {
+    width: 12px;
+    height: 12px;
+  }
+  .next-article {
+    font-size: 1.3em;
+  }
+
+  .next-text {
+    font-size: 1.3em;
+    margin: 8% 0 0 20%;
+  }
+  .Relation-article-text {
+    font-size: 1.2em;
+  }
+  .side-navigation {
+    padding-left: 2em;
+    width: 33%;
+  }
+
+  .side-kensaku-box {
+    margin: 4rem 0 2rem 0;
+  }
+
+  .side-article {
+    font-size: 1.7em;
+    width: 85px;
+  }
+  .Recently-article-title {
+    font-size: 1.2em;
+  }
+  .foot-twitter-wrapper a {
+    margin: 5% auto;
+  }
+  .foot-wrapper {
+    margin-top: 5%;
+  }
+}
