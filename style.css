@@ -45,7 +45,6 @@ body {
   height: 30px;
   min-width: 300px;
 }
-
 .form-box {
   border: none;
   align-items: center;
@@ -53,23 +52,16 @@ body {
 }
 
 .form-input {
-  width: 92%;
+  width: 100%;
   height: 30px;
   font-size: 1.2em;
   margin-left: 10px;
   min-width: 300px;
+  display: flex;
 }
 .form-botan {
   border: none;
-  align-items: center;
 }
-
-.form-botan img {
-  width: 18px;
-  height: 18px;
-  margin-right: 5px;
-}
-
 .header-twitter img {
   margin-left: 9px;
   margin-top: 3px;
@@ -78,6 +70,11 @@ body {
   border-radius: 50%;
   border: 1px solid #333333;
   cursor: pointer;
+}
+.form-botan img {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
 }
 .header-twitter :hover {
   background-color: #55ffff;
@@ -89,15 +86,16 @@ body {
   height: 130px;
   background-color: #63ba6e;
   color: #fff;
-  padding-left: 12%;
 }
-
 .header-title {
   font-size: 2.7em;
   font-weight: bold;
   padding-top: 1.3em;
   cursor: pointer;
   letter-spacing: 0.05em;
+  margin: 0 auto;
+  width: 1100px;
+  max-width: 95%;
 }
 .header-title:hover {
   text-decoration: underline solid #b3b3b3;
@@ -106,16 +104,20 @@ body {
 .header-sub-title {
   font-size: 1.1em;
   letter-spacing: 0.05em;
+  margin: 0 auto;
+  width: 1100px;
+  max-width: 95%;
 }
-main {
+
+.article {
+  display: flex;
   width: 1100px;
   max-width: 95%;
   margin: 0 auto;
 }
 .main-article {
-  display: flex;
+  width: 84%;
 }
-
 .header-address {
   border: solid 1px #f2f2f2;
   background-color: #f2f2f2;
@@ -123,7 +125,7 @@ main {
   font-size: 1.2em;
   line-height: 1.75;
   padding: 0.9em 3em 0.9em 0.9em;
-  margin-top: 4rem;
+  margin-top: 60px;
 }
 
 .main-title {
@@ -146,6 +148,7 @@ main {
 #navToggle {
   display: none;
 }
+
 .date img {
   margin-right: 0.5em;
   width: 12px;
@@ -533,8 +536,8 @@ hr {
   height: 12px;
 }
 .side-navigation {
-  width: 39%;
-  padding-left: 75px;
+  width: 46%;
+  padding-left: 7%;
 }
 
 .side-kensaku-box {
@@ -668,9 +671,10 @@ footer a {
   text-decoration: none;
 }
 .foot-twitter-wrapper a {
-  display: block;
-  margin: 3% auto;
+  margin: 40px auto;
   text-align: center;
+  width: 100%;
+  display: inline-block;
 }
 .foot-twitter {
   color: #bbb;
@@ -687,7 +691,7 @@ footer a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 5%;
+  margin-top: 40px;
 }
 .copy {
   color: #bbb;
