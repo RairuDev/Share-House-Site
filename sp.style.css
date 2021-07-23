@@ -9,28 +9,42 @@
     height: 90px;
   }
   .header-width {
-    padding: 0;
+    padding: 0 10px;
     flex-wrap: wrap;
-    width: 700px;
-    max-width: 96%;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
   }
-
+  .header-top-wrapper {
+    width: 100%;
+    max-width: 100%;
+    margin-right: 0;
+  }
   .header-article {
-    margin: 8px 0 0 2%;
+    display: block;
+    margin: 8px 0%;
+    width: 15%;
+    min-width: 110px;
+    box-sizing: border-box;
   }
   .header-information {
-    margin: 8px 2% 0 0;
-    border: 1px solid #eee;
+    display: block;
+    width: 85%;
+    min-width: 250px;
+    margin: 8px 0;
+    border: 1px solid #323232;
+    box-sizing: border-box;
   }
-  .Search-box-wrapper {
+  .search-box {
+    display: block;
     width: 92%;
     margin-bottom: 2%;
+    min-width: 400px;
   }
   .form-input {
     width: 95%;
   }
   .header-twitter img {
-    padding-left: 5%;
     padding: 5%;
     width: 27px;
     height: 27px;

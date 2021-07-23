@@ -7,15 +7,19 @@
   .header-width {
     width: 829px;
   }
-
+  .header-top-wrapper {
+    display: flex;
+    margin-right: 10px;
+    max-width: 400px;
+  }
   .header-information {
-    width: 35%;
+    width: 65%;
     overflow-x: scroll;
-    min-width: 0;
+    min-width: 280px;
   }
   .search-box {
-    width: 45%;
-    min-width: 0;
+    width: 47%;
+    min-width: 300px;
   }
 
   .header-title-wrapper {
